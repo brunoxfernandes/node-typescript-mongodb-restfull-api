@@ -374,6 +374,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/validator@npm:^13.12.2":
+  version: 13.12.2
+  resolution: "@types/validator@npm:13.12.2"
+  checksum: 4e989f76e155a93a94f53c2362d5695f0a95fb6f36e05f215b1af893e1dc70a7db2d8422c9a0c14dadb4fd3c32a7698c86bce3b81ff99116c8c7f21888875a2f
+  languageName: node
+  linkType: hard
+
 "@types/webidl-conversions@npm:*":
   version: 7.0.3
   resolution: "@types/webidl-conversions@npm:7.0.3"
@@ -879,6 +886,7 @@ __metadata:
     "@eslint/js": ^9.14.0
     "@types/express": ^5.0.0
     "@types/node": ^22.9.0
+    "@types/validator": ^13.12.2
     "@typescript-eslint/eslint-plugin": ^8.13.0
     "@typescript-eslint/parser": ^8.13.0
     dotenv: ^16.4.5
@@ -893,6 +901,7 @@ __metadata:
     tsc: ^2.0.4
     typescript: ^5.6.3
     typescript-eslint: ^8.13.0
+    validator: ^13.12.0
   languageName: unknown
   linkType: soft
 
@@ -2877,6 +2886,13 @@ __metadata:
   version: 3.0.1
   resolution: "v8-compile-cache-lib@npm:3.0.1"
   checksum: 78089ad549e21bcdbfca10c08850022b22024cdcc2da9b168bcf5a73a6ed7bf01a9cebb9eac28e03cd23a684d81e0502797e88f3ccd27a32aeab1cfc44c39da0
+  languageName: node
+  linkType: hard
+
+"validator@npm:^13.12.0":
+  version: 13.12.0
+  resolution: "validator@npm:13.12.0"
+  checksum: fb8f070724770b1449ea1a968605823fdb112dbd10507b2802f8841cda3e7b5c376c40f18c84e6a7b59de320a06177e471554101a85f1fa8a70bac1a84e48adf
   languageName: node
   linkType: hard
 
