@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-mongo-crud-restfull-api",
+  "name": "node-typescript-mongodb-restfull-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

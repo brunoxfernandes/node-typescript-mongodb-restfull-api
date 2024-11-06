@@ -2097,9 +2097,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-ts-mongo-crud-restfull-api@workspace:.":
+"node-typescript-mongodb-restfull-api@workspace:.":
   version: 0.0.0-use.local
-  resolution: "node-ts-mongo-crud-restfull-api@workspace:."
+  resolution: "node-typescript-mongodb-restfull-api@workspace:."
   dependencies:
     "@types/express": ^5.0.0
     "@types/node": ^22.9.0
