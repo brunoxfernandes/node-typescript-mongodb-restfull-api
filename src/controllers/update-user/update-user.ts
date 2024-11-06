@@ -6,7 +6,7 @@ import { IUpdateUserRepository, UpdateUserParams } from "./protocols";
 export class UpdateUserController implements IController {
   constructor(private readonly updateUserRepository: IUpdateUserRepository) {}
   async handle(
-    httpRequest: HttpRequest<UpdateUserParams>
+    httpRequest: HttpRequest<UpdateUserParams>,
   ): Promise<HttpResponse<User | string>> {
     try {
       const id = httpRequest?.params?.id;
@@ -27,7 +27,7 @@ export class UpdateUserController implements IController {
       ];
 
       const someFieldNotAllowedToUpdate = Object.keys(body).some(
-        (key) => !allowedFieldsToUpdate.includes(key as keyof UpdateUserParams)
+        (key) => !allowedFieldsToUpdate.includes(key as keyof UpdateUserParams),
       );
 
       if (someFieldNotAllowedToUpdate) {

@@ -7,7 +7,7 @@ import { badRequest, created, serverError } from "../helpers";
 export class CreateUserController implements IController {
   constructor(private readonly createUserRepository: ICreateUserRepository) {}
   async handle(
-    httpRequest: HttpRequest<CreateUserParams>
+    httpRequest: HttpRequest<CreateUserParams>,
   ): Promise<HttpResponse<User | string>> {
     try {
       const requiredFileds = ["firstName", "lastName", "email", "password"];
@@ -24,7 +24,7 @@ export class CreateUserController implements IController {
       }
 
       const user = await this.createUserRepository.createUser(
-        httpRequest.body!
+        httpRequest.body!,
       );
 
       return created<User>(user);

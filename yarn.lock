@@ -67,7 +67,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.14.0, @eslint/js@npm:^9.14.0":
+"@eslint/js@npm:9.14.0":
   version: 9.14.0
   resolution: "@eslint/js@npm:9.14.0"
   checksum: 727767d3c80bf88e08565af10cc3732ca0d272c729bbd39043722a203eea289ec6149ab42d977d2d28a81d99329dceeed091b70db37b868e6659913a0840e17b
@@ -397,7 +397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.13.0, @typescript-eslint/eslint-plugin@npm:^8.13.0":
+"@typescript-eslint/eslint-plugin@npm:^8.13.0":
   version: 8.13.0
   resolution: "@typescript-eslint/eslint-plugin@npm:8.13.0"
   dependencies:
@@ -420,7 +420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.13.0, @typescript-eslint/parser@npm:^8.13.0":
+"@typescript-eslint/parser@npm:^8.13.0":
   version: 8.13.0
   resolution: "@typescript-eslint/parser@npm:8.13.0"
   dependencies:
@@ -1447,13 +1447,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^15.12.0":
-  version: 15.12.0
-  resolution: "globals@npm:15.12.0"
-  checksum: 2a134cc876dd73192489561e3c85be348dc1408fef043ebef605cdc437f64cd2fc922268db02e3348683d05d06bed10fb1c3653b3d4399a204a7ecd59e742a07
-  languageName: node
-  linkType: hard
-
 "gopd@npm:^1.0.1":
   version: 1.0.1
   resolution: "gopd@npm:1.0.1"
@@ -2104,11 +2097,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-ts-mongo-crud-rest-api@workspace:.":
+"node-ts-mongo-crud-restfull-api@workspace:.":
   version: 0.0.0-use.local
-  resolution: "node-ts-mongo-crud-rest-api@workspace:."
+  resolution: "node-ts-mongo-crud-restfull-api@workspace:."
   dependencies:
-    "@eslint/js": ^9.14.0
     "@types/express": ^5.0.0
     "@types/node": ^22.9.0
     "@types/validator": ^13.12.2
@@ -2118,14 +2110,11 @@ __metadata:
     eslint: ^9.14.0
     eslint-config-prettier: ^9.1.0
     express: ^4.21.1
-    globals: ^15.12.0
     mongodb: ^6.10.0
     nodemon: ^3.1.7
     prettier: ^3.3.3
     ts-node: ^10.9.2
-    tsc: ^2.0.4
     typescript: ^5.6.3
-    typescript-eslint: ^8.13.0
     validator: ^13.12.0
   languageName: unknown
   linkType: soft
@@ -2765,15 +2754,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsc@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "tsc@npm:2.0.4"
-  bin:
-    tsc: bin/tsc
-  checksum: 50b10240887424c66454687f0fca4e319713b35cb44f0dab228719eb4dd757251f83c3d79e60d29dfbe90c2d6f1272f793b83e75a9fca2c622b4213ad3eb8cb1
-  languageName: node
-  linkType: hard
-
 "type-check@npm:^0.4.0, type-check@npm:~0.4.0":
   version: 0.4.0
   resolution: "type-check@npm:0.4.0"
@@ -2790,20 +2770,6 @@ __metadata:
     media-typer: 0.3.0
     mime-types: ~2.1.24
   checksum: 2c8e47675d55f8b4e404bcf529abdf5036c537a04c2b20177bcf78c9e3c1da69da3942b1346e6edb09e823228c0ee656ef0e033765ec39a70d496ef601a0c657
-  languageName: node
-  linkType: hard
-
-"typescript-eslint@npm:^8.13.0":
-  version: 8.13.0
-  resolution: "typescript-eslint@npm:8.13.0"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": 8.13.0
-    "@typescript-eslint/parser": 8.13.0
-    "@typescript-eslint/utils": 8.13.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 9996944f33446b642e017f09387a4c73fe42c8c683dffdfbe5c3342142d3dc30406789aa9def2649003cc9760e0f4cb620fcbdb2df33deeec2f5b5f5987fc407
   languageName: node
   linkType: hard
 

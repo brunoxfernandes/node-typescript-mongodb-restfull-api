@@ -30,7 +30,7 @@ const main = async () => {
   app.post("/users", async (req, res) => {
     const mongoCreateUserRepository = new MongoCreateUserRepository();
     const createUserController = new CreateUserController(
-      mongoCreateUserRepository
+      mongoCreateUserRepository,
     );
     const { body, statusCode } = await createUserController.handle({
       body: req.body,
@@ -42,7 +42,7 @@ const main = async () => {
   app.patch("/users/:id", async (req, res) => {
     const mongoUpdateUserRepository = new MongoUpdateUserRepository();
     const updateUserController = new UpdateUserController(
-      mongoUpdateUserRepository
+      mongoUpdateUserRepository,
     );
     const { body, statusCode } = await updateUserController.handle({
       body: req.body,
@@ -55,7 +55,7 @@ const main = async () => {
   app.delete("/users/:id", async (req, res) => {
     const mongoDeleteUserRepository = new MongoDeleteUserRepository();
     const deleteUserController = new DeleteUserController(
-      mongoDeleteUserRepository
+      mongoDeleteUserRepository,
     );
     const { body, statusCode } = await deleteUserController.handle({
       params: req.params,
