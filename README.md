@@ -79,7 +79,7 @@ A estrutura do projeto segue uma organização baseada em princípios de Clean A
 
 ```
 src/
-├── controllers/    # Controladores para lidar com a lógica de cada rota
+├── controllers/    # Controladores para lidar com as requisições e validações
 ├── database/       # Configuração e ligação à base de dados
 ├── models/         # Modelos de dados para MongoDB
 ├── repositories/   # Implementação do Repository Pattern para acesso aos dados
