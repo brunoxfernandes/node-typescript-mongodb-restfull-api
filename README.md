@@ -1,6 +1,6 @@
 # Node TypeScript MongoDB RESTful API
 
-Este projeto foi criado com o intuito de praticar e aperfeiçoar as minhas competências no desenvolvimento de APIs RESTful utilizando Node.js, TypeScript e MongoDB. É uma recriação de uma API anterior, orientada pela perspetiva do Felipe Rocha, do Full Stack Club, no seu tutorial em vídeo [aqui](https://www.youtube.com/watch?v=gU3kp7Aw0JI).
+Este projeto foi criado com o intuito de praticar e aperfeiçoar as minhas competências no desenvolvimento de APIs RESTful utilizando Node.js, TypeScript e MongoDB. É uma recriação de uma API anterior, orientada pela perspetiva do [@felipemotarocha](https://github.com/felipemotarocha), do [Full Stack Club](https://www.youtube.com/@dicasparadevs), no seu tutorial em vídeo [aqui](https://www.youtube.com/watch?v=gU3kp7Aw0JI).
 
 ## Visão Geral do Projeto
 
@@ -9,7 +9,7 @@ Esta API demonstra o uso de arquiteturas e princípios modernos, flexíveis e am
 - **Princípios SOLID**: Para garantir que o código é modular, fácil de compreender e de manter.
 - **Repository Pattern**: Utilizado para abstrair a camada de acesso a dados, tornando o código mais flexível e fácil de expandir ou modificar.
 - **Operações CRUD**: Implementação das operações básicas de Criar, Ler, Atualizar e Apagar.
-- **Express**: Utilizado como o framework para gestão de pedidos HTTP na API.
+- **Injeção de Dependências**: Facilita o desacoplamento de componentes, promovendo um código mais modular e testável.
 
 ## Tecnologias Utilizadas
 
@@ -100,4 +100,5 @@ Esta API fornece endpoints básicos para operações CRUD. Podes interagir com e
 
 ## Agradecimentos
 
-Agradecimentos especiais ao Felipe Rocha pela orientação neste projeto. Podes ver o tutorial dele no YouTube [aqui](https://www.youtube.com/watch?v=gU3kp7Aw0JI).
+Agradecimentos especiais a [@felipemotarocha](https://github.com/felipemotarocha) pela inspiração e orientação neste projeto. Podes ver o tutorial dele no YouTube [aqui](https://www.youtube.com/watch?v=gU3kp7Aw0JI).
+
