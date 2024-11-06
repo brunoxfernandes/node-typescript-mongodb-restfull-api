@@ -1,3 +1,5 @@
+[🇬🇧 English Version](README_en.md) [🇵🇹 Portuguese Version](README.md)
+
 # Node TypeScript MongoDB RESTful API
 
 Este projeto foi criado com o intuito de praticar e aperfeiçoar as minhas competências no desenvolvimento de APIs RESTful utilizando Node.js, TypeScript e MongoDB. É uma recriação de uma API anterior, orientada pela perspetiva do [@felipemotarocha](https://github.com/felipemotarocha), do [Full Stack Club](https://www.youtube.com/@dicasparadevs), no seu tutorial em vídeo [aqui](https://www.youtube.com/watch?v=gU3kp7Aw0JI).
@@ -101,4 +103,3 @@ Esta API fornece endpoints básicos para operações CRUD. Podes interagir com e
 ## Agradecimentos
 
 Agradecimentos especiais a [@felipemotarocha](https://github.com/felipemotarocha) pela inspiração e orientação neste projeto. Podes ver o tutorial dele no YouTube [aqui](https://www.youtube.com/watch?v=gU3kp7Aw0JI).
-
