@@ -1,17 +1,7 @@
-# Node modules e Yarn
 node_modules/
 .yarn/
 yarn.lock
 package-lock.json
-
-# Configurações do Editor
 .vscode/
-.idea/
-
-# Build e Output
-dist/
-build/
-
-# Outros
 .DS_Store
 .env
