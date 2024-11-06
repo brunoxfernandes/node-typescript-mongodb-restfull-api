@@ -879,32 +879,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crud-api@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "crud-api@workspace:."
-  dependencies:
-    "@eslint/js": ^9.14.0
-    "@types/express": ^5.0.0
-    "@types/node": ^22.9.0
-    "@types/validator": ^13.12.2
-    "@typescript-eslint/eslint-plugin": ^8.13.0
-    "@typescript-eslint/parser": ^8.13.0
-    dotenv: ^16.4.5
-    eslint: ^9.14.0
-    eslint-config-prettier: ^9.1.0
-    express: ^4.21.1
-    globals: ^15.12.0
-    mongodb: ^6.10.0
-    nodemon: ^3.1.7
-    prettier: ^3.3.3
-    ts-node: ^10.9.2
-    tsc: ^2.0.4
-    typescript: ^5.6.3
-    typescript-eslint: ^8.13.0
-    validator: ^13.12.0
-  languageName: unknown
-  linkType: soft
-
 "debug@npm:2.6.9":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
@@ -2129,6 +2103,32 @@ __metadata:
   checksum: 0233759d8c19765f7fdc259a35eb046ad86c3d09e22f7384613ae2b89647dd27fcf833fdf5293d9335041e91f9b1c539494225959cdb312a5c8080b7534b926f
   languageName: node
   linkType: hard
+
+"node-ts-mongo-crud-rest-api@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "node-ts-mongo-crud-rest-api@workspace:."
+  dependencies:
+    "@eslint/js": ^9.14.0
+    "@types/express": ^5.0.0
+    "@types/node": ^22.9.0
+    "@types/validator": ^13.12.2
+    "@typescript-eslint/eslint-plugin": ^8.13.0
+    "@typescript-eslint/parser": ^8.13.0
+    dotenv: ^16.4.5
+    eslint: ^9.14.0
+    eslint-config-prettier: ^9.1.0
+    express: ^4.21.1
+    globals: ^15.12.0
+    mongodb: ^6.10.0
+    nodemon: ^3.1.7
+    prettier: ^3.3.3
+    ts-node: ^10.9.2
+    tsc: ^2.0.4
+    typescript: ^5.6.3
+    typescript-eslint: ^8.13.0
+    validator: ^13.12.0
+  languageName: unknown
+  linkType: soft
 
 "nodemon@npm:^3.1.7":
   version: 3.1.7
